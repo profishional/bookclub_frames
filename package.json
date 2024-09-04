@@ -1,45 +1,26 @@
 {
-    "name": "bookclub-app",
-    "version": "1.0.0",
-    "description": "A Farcaster Frames app for minting book cover NFTs",
-    "main": "index.js",
+    "name": "book-cover-nft",
+    "version": "0.1.0",
+    "private": true,
     "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
     },
     "dependencies": {
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "react-scripts": "5.0.1",
-        "wagmi": "^1.4.13",
-        "viem": "^1.16.6",
-        "@farcaster/core": "^0.13.5",
-        "@zoralabs/protocol-sdk": "^0.4.0",
-        "@zoralabs/zdk": "^2.4.0"
+        "@thirdweb-dev/react": "^3.14.35",
+        "@thirdweb-dev/sdk": "^3.10.54",
+        "axios": "^1.4.0",
+        "ethers": "^5.7.2",
+        "next": "13.4.19",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
     },
     "devDependencies": {
-        "@types/react": "^18.2.55",
-        "@types/react-dom": "^18.2.19",
-        "typescript": "^5.3.3"
-    },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
+        "@types/node": "20.5.1",
+        "@types/react": "18.2.20",
+        "@types/react-dom": "18.2.7",
+        "typescript": "5.1.6"
     }
 }
