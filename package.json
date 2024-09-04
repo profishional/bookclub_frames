@@ -13,14 +13,16 @@
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-scripts": "5.0.1",
-        "wagmi": "^1.0.0",
-        "ethers": "^5.7.2",
-        "farcaster-frames": "^0.1.0"
+        "wagmi": "^1.4.13",
+        "viem": "^1.16.6",
+        "@farcaster/core": "^0.13.5",
+        "@zoralabs/protocol-sdk": "^0.4.0",
+        "@zoralabs/zdk": "^2.4.0"
     },
     "devDependencies": {
-        "@types/react": "^18.0.28",
-        "@types/react-dom": "^18.0.11",
-        "typescript": "^4.9.5"
+        "@types/react": "^18.2.55",
+        "@types/react-dom": "^18.2.19",
+        "typescript": "^5.3.3"
     },
     "eslintConfig": {
         "extends": [
